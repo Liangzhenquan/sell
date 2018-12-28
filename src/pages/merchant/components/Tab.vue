@@ -5,8 +5,6 @@
       @click='handleChange(index)'
       v-for='(item,index) of list'
     ><p :class="{current:currentclick==index} ">{{item}}</p></div>
-    <!-- <div class="item"  @click='handleChange'><p :class="{current:currentclick=='2'} ">评价</p></div>
-    <div class="item"  @click='handleChange'><p :class="{current:currentclick=='3'} ">商家</p></div> -->
   </div>
 </template>
 <script>
@@ -29,11 +27,13 @@ export default {
 <style lang='stylus' scoped>
 .tab
   overflow hidden
+  position sticky
+  top 0
+  display flex
   border-bottom 1px solid #eee
   .item
     width 33.3%
-    float left
-    line-height .88rem
+    line-height 10vw
     text-align center
     font-size .34rem
     p

@@ -33,8 +33,7 @@ export default {
 .header
   width 100%
   position relative
-  height 0
-  padding-bottom 54.6%
+  padding-bottom 26vw
   background url(//fuss10.elemecdn.com/3/07/33b558505fc8b968e6fc1b8389c48jpeg.jpeg?imageMogr/thumbnail/750x/thumbnail/!40p/blur/50x40/) 0  0 no-repeat
   .wrapper
     width 100%
